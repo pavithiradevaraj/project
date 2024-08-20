@@ -1,0 +1,15 @@
+/* Gallery Styles */
+.container11 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.container11 .box11 {
+    position: relative;
+}
+
+.container11 .box11 img {
+    width: 100%;
+    height: auto;
+}
