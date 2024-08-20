@@ -1,0 +1,396 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header Styles */
+.header {
+    background: url('assets/header-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    
+}
+.headerimage{
+    width: 100%;
+    height: 600px;;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+}
+.logo a :hover{
+    color: red;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 400px;
+    position: absolute;
+    top: 0;
+}
+.nav__links :hover{
+    color: purple;
+}
+
+
+.nav__links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__btn {
+    background: #f78f1e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-left: 84%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+}
+#home{
+    position: absolute;
+    top: 0;
+    margin-top:    100px;
+    margin-left: 290px;
+    
+}
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #e3660c, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    background-size: 80%;
+    animation: shine 10s linear infinite;
+    position: relative;
+    text-align: center;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+.header__container {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.header__container p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.header__container h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.header__container span {
+    color: #f78f1e;
+}
+.class{
+    top: 96%;
+    width: 56%;
+    position: absolute;
+    padding: 20px;
+    padding-left: 42%;
+    border-radius: 24px;
+    background: lightgray;
+}
+.btn1{
+    background-color: #f78f1e;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color: gold;
+}
+.btn3{
+    background-color: #f7991e;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn3:hover{
+    background-color: gold;
+}
+
+
+
+                        /* About Section */
+.about__container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.about__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 30px;
+    width: 40pc;
+    height: 30pc;
+}
+.btn2{
+    background-color: #f78f1e;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.about__content {
+    flex: 1;
+}
+.section__subheader{
+    color: brown;
+}
+.one{
+    transition: 5s;
+}
+
+/* Room Section */
+.room__container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.room__grid {
+    display: inline-block;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.room__card {
+    border: 1px;
+    padding: 1rem;
+}
+
+.room__card__image img {
+    width: 100%;
+    border-radius: 9px;
+    height: auto;
+    position:relative;
+    transition: .5s;
+}
+.room__card__image img:hover {
+    width:95%;
+
+}
+.head1{
+    color: red;
+    font-size: 2rem;
+}
+.head2{
+    font-size: 1.1rem;
+    color: gray;
+    font-family: cursive;
+
+}
+.room1{
+    width: 30%;
+    background-color: white;
+    border-radius: 7px;
+    /* box-shadow: 10px 10px 2px lightgrey; */
+    display: inline-block;
+    margin-right:2px;
+    height: 33pc;
+    
+}
+.room__card__details h4 {
+    margin: 1rem 0;
+}
+
+.room__card__details p {
+    margin: 0.5rem 0;
+}
+
+/* Services Section */
+.service__container {
+    padding: 2rem;
+    text-align: center;
+}
+.service__content{
+    position: absolute;
+    margin-bottom: 60px;
+    margin-left: 27pc ;
+    top:125pc;
+}
+.banner__content{
+    margin-left: 40px;
+    position: absolute;
+    top:125pc;
+    color: red;
+
+}
+.image1{
+        width: 100%;
+        height: 600px;;
+}
+.section__header{
+    color: rgb(239, 23, 8);
+    font-size: 1.7em;
+}
+.section__description1{
+    width: 50%;
+}
+.section__subheader{
+    color: black;
+    font-size: 1.1em;
+}
+
+.service__list {
+    list-style: none;
+    padding: 0;
+}
+
+.service__list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+/* Gallery Section */
+.container11 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5px;
+    width: 100%;
+}
+
+.container11 .box11 {
+    position: relative;
+}
+
+.container11 .box11 img {
+    width: 100%;
+    height: 300px;
+
+}
+
+/* Contact Section */
+.contact__container {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact__form__container {
+    flex: 1;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__group {
+    margin: 1rem 0;
+}
+
+.input__group label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input__group input, .input__group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.input__btn {
+    text-align: center;
+}
+
+.input__btn button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #f78f1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.map__container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+/* Footer Section */
+.footer__container {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer__grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer__logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer__description {
+    margin: 1rem 0;
+}
+
+.footer__right h4 {
+    margin: 1rem 0 0.5rem;
+}
+
+.footer__right p {
+    margin: 0.5rem 0;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__socials img {
+    width: 24px;
+    height: 24px;
+}
+.contact__form input {
+    border:none;
+    box-shadow: rgba(9, 9, 198, 0.05) 0px 1px 0px, rgba(46, 46, 132, 0.1) 0px 0px 8px;
+    border-radius: 12px;
+}
