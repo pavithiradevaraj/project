@@ -1,0 +1,32 @@
+/* Contact Form Styles */
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__group {
+    margin: 1rem 0;
+}
+
+.input__group label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input__group input, .input__group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.input__btn {
+    text-align: center;
+}
+
+.input__btn button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #f78f1e;
+    color: #fff;
+    cursor: pointer;
+}
